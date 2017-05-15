@@ -2,5 +2,5 @@
 
 netease是模仿网易某网站的首页
 
-todo是一个任务清单的项目，可以记录任务并设置提醒时间
-主要利用localStorage本地存储,sweet.js弹窗插件
+熟悉div+css布局方式，ajax跨域原理，ps切图技巧，
+todo是一个任务清单的项目，可以记录任务并设置提醒时间。了解css3、localStorage本地存储以及sweet.js弹窗插件的使用
