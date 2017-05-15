@@ -1,0 +1,51 @@
+<DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>爱心鱼</title>
+		<style>
+			body{
+				padding-top: 10px;
+			}
+			.all_bg, .canvas_all{
+				width: 800px;
+				height: 600px;
+				margin: 0 auto;
+			}
+			.canvas_all {
+				position: relative;
+			}
+			.canvas_first , .canvas_second{
+				position: absolute;
+				bottom: 0;
+				left: 0;
+			}
+			.canvas_first {
+				z-index: 1000;
+			}
+			.canvas_second {
+				z-index: 999;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="all_bg">
+			<div id="canvas-id" class="canvas_all">
+				<canvas id="canvas-first" class="canvas_first" width="800" height="600"></canvas> <!-- 创建两个canvas为了减轻渲染压力  -->
+				<canvas id="canvas-second" class="canvas-second" width="800" height="600"></canvas>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/commonFunctions.js"></script>
+		<script type="text/javascript" src="js/drawBackground.js"></script>
+		<script type="text/javascript" src="js/ane.js"></script>
+		<script type="text/javascript" src="js/fruit.js"></script>
+		<script type="text/javascript" src="js/mom.js"></script>
+		<script type="text/javascript" src="js/collision.js"></script>
+		<script type="text/javascript" src="js/baby.js"></script>
+		<script type="text/javascript" src="js/data.js"></script>
+		<script type="text/javascript" src="js/wave.js"></script>
+		<script type="text/javascript" src="js/halo.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
