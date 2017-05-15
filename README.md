@@ -11,5 +11,4 @@
 
 <b>fish_game是大鱼吃果实小游戏</b></br>
 &nbsp;&nbsp;&nbsp;&nbsp;规则是大鱼必须不断吃果实并需要时不时喂小鱼(通过大鱼碰撞小鱼来模拟)，让小鱼恢复体力。如果不会喂小鱼，小鱼身体逐渐变白然后结束游戏。
-</br></br>
 &nbsp;&nbsp;&nbsp;&nbsp;熟悉canvas的一些绘图api
