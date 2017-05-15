@@ -7,4 +7,4 @@
 了解css3、localStorage本地存储以及sweet.js弹窗插件的使用
 
 <b>webApp</b></br>
-手机端的阅读器
+手机端小说的阅读器
