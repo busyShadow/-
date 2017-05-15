@@ -1,0 +1,134 @@
+html,body{
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    background:rgba(46, 53, 93, 0.8);
+}
+* {
+    border: 0;
+    box-sizing: border-box;
+    outline: 0;
+    transition: all 0.25s;
+}
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    color:white;
+}
+audio {
+    display: none;
+}
+button, 
+input[type=text], 
+input[type=date],
+.task-detail .content,
+textarea{
+    padding: 10px;
+    border-radius: 4px;
+}
+buttton {
+    cursor: pointer;
+}
+
+.task-detail .content{
+    width: 100%;
+    background: rgba(213, 214, 204, 0.5);
+    margin-bottom: 4px;
+}
+.add-task {
+    margin-bottom: 11px;
+}
+.add-task input{
+    color: rgba(255, 255, 255, 0.76);
+    background: rgba(46, 53, 93, 1);
+    float: left;
+    width:84%;
+    margin-right: 6px;
+}
+.task-item.complete:hover,
+.task-item.complete {
+    background: rgba(204, 204, 204, 0.42) !important;
+}
+.task-item.complete:after {
+    content: "";
+    height: 1px;
+    width: 97%;
+    background: rgba(204, 204, 204, 0.37);
+    position: relative;
+    top: -9px;
+    float: right;
+}
+.add-task button,
+.update{
+    width: 15%;
+    background: rgba(110, 126, 206, 0.88);
+}
+.add-task button:hover,
+.update:hover{
+    background: rgba(130, 148, 239, 0.88);
+}
+
+.task-item {
+    position: relative;
+    background: rgba(255,255,255,0.4);
+    color: #ccc;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+.task-item:hover{
+    background: rgba(255,255,255,0.53);
+}
+.task-function {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+}
+.task-detail-mask,
+.task-detail{
+    display: none;
+    position: absolute;
+}
+.task-detail-mask {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(100,100,100, .2);
+}
+.task-detail{
+    min-width: 40%;
+    min-height: 40%;
+    top: 50%;
+    left: 50%;
+    background: white;
+    padding: 10px;
+    color: #000;
+    font-weight: 900;
+    transform: translate(-50%, -50%);
+}
+.task-detail input,
+textarea{  
+    background: rgba(213, 214, 204, 0.85);
+}
+textarea {
+    width: 100%;
+    min-height: 100px;
+    overflow: auto;
+}
+textarea:focus,
+textarea:hover,
+#datetimepicker:focus,
+#datetimepicker:hover{
+    background: rgba(213, 214, 204, 0.5);
+}
+#datetimepicker {
+    display: block;
+    width: 100%;
+    margin: 4px 0 4px 0;
+}

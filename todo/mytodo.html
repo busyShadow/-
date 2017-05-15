@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>My Todo App</title>
+    <link href="http://cdn.bootcss.com/normalize/5.0.0/normalize.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/jquery-datetimepicker/2.5.4/jquery.datetimepicker.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css" />
+</head>
+<body>
+<div class="container"> <!-- 我的容器开始-->
+    <h1>我的Todo</h1>
+    <form class="add-task"><!-- 记录事情开始-->
+        <input type="text" placeholder="e.g 记得发个红包给我" />
+        <button type="submit">submit</button>
+    </form><!-- 记录事情结束-->
+    
+    <!--事件显示开始 -->
+    <div class="task-list">
+        
+    </div>
+    <!-- 事情显示结束-->
+    
+    <div class="task-detail-mask"></div>
+    <div class="task-detail"><!-- 事情具体显示开始-->
+        <input type="text" class="content" /><!-- 事情标题-->
+        
+        <div><!-- 事情详情描述开始-->
+                <textarea ></textarea>
+        </div><!-- 事情详情描述结束-->
+        
+        <div class="remind"><!-- 事情提醒开始-->
+            <div>提醒时间</div>
+            <input type='text' id="datetimepicker" />
+            <audio>
+                <!-- <source src="alert.mp3"  type="audio/mpeg" /> -->
+                您的浏览器不支持audio,请更新！！
+            </audio>
+        </div><!-- 事情提醒结束-->
+        
+        <button class="update">更新</button>
+    </div><!-- 事情具体显示结束-->
+    
+</div><!-- 我的容器结束-->
+<script src="https://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/store.js/1.3.20/store.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-datetimepicker/2.5.4/build/jquery.datetimepicker.full.min.js"></script>
+<script src="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert-dev.min.js"></script>
+<script src="js/base.js"></script>
+
+</body>
+</html>
