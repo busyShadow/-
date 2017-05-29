@@ -7,7 +7,7 @@
 </p>
 
 <h4>todo是一个任务清单的项目，可以记录任务并设置提醒时间</h4>
-<p>了解css3、localStorage本地存储以及对sweet.js弹窗插件的使用和修改
+<p>了解css3、localStorage本地存储以及对sweet.js弹窗插件的使用和修改。熟悉jquery库
 <a href="http://liangzhihui.xyz/todo" title="演示地址">链接</a>
 </p>
 
